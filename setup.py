@@ -12,7 +12,7 @@ extensions = Extension(name = 'ridgevar._RidgeVarpy',  # name of our extension m
 setup(
     name='RidgeVarpy', # A name show on Pypi.
     version=VERSION, 
-    packages = ['RidgeVarpy'],
+    packages = ['ridgevar'],
     ext_modules = [extensions],
     license='MIT',
     description='A Python package for estimation of error variance via ridge regression.',
