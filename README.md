@@ -1,19 +1,20 @@
-# RidgeVarpy
-Python package "RidgeVarpy" for estimation of error variance via ridge regression. Provide several methods to estimate the error variance for high-dimensional linear regression models, which includes the ridge regression based method of Liu et al. (2020), the maximum likelihood based method of Dicker and Erdogdu (2016), and the moments based method of Dicker (2014).
+# ridgevar
+Python package "ridgevarpy" for estimation of error variance via ridge regression. Provide several methods to estimate the error variance for high-dimensional linear regression models, which includes the ridge regression based method of Liu et al. (2020), the maximum likelihood based method of Dicker and Erdogdu (2016), and the moments based method of Dicker (2014).
 
 # Installation
 
-    pip install git+https://github.com/xliusufe/RidgeVarpy.git
+    pip install git+https://github.com/xliusufe/ridgevarpy.git
 
 # Usage
 
    - There are three functions: `VAR_RR`, `VAR_MM`, and `VAR_MLE` 
 
-   - Details of the usage of the package can be found in corresponding R package [RidgeVar-manual.pdf](https://github.com/xliusufe/RidgeVar/blob/master/inst/RidgeVar-manual.pdf)
+   - Details of the usage of the package can be found in corresponding R package [RidgeVar-manual.pdf](https://github.com/xliusufe/ridgevar/blob/master/inst/ridgevar-manual.pdf)
 
-   - The correponding R package named [RidgeVarpy](https://github.com/xliusufe/RidgeVar/) can be found on GitHub.
+   - The correponding R package named [ridgevarpy](https://github.com/xliusufe/ridgevar/) can be found on GitHub.
 # Example
     from ridgevar import *
+    import numpy as np
 
     n, p = 60, 100
     beta = np.append(np.sqrt(0.1/p)*np.repeat(1,p/2),np.repeat(0,p/2))

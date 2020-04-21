@@ -10,7 +10,7 @@ extensions = Extension(name = 'ridgevar._RidgeVarpy',  # name of our extension m
 
 
 setup(
-    name='RidgeVarpy', # A name show on Pypi.
+    name='ridgevar', # A name show on Pypi.
     version=VERSION, 
     packages = ['ridgevar'],
     ext_modules = [extensions],
