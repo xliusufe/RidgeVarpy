@@ -1,12 +1,9 @@
 #include <Python.h>
 #include "cfunct.h"
 #include <numpy/arrayobject.h>
-#include <math.h> 
 #include <stdio.h>  
 #include <stdlib.h> 
-#include <float.h>  
 #include <string.h> 
-#include <time.h>
 
 static PyObject *py_VAR_RR_(PyObject *self, PyObject *args) {   
     PyObject *py_x, *py_y, *py_para; 
