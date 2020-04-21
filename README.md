@@ -36,4 +36,4 @@ Fan, J., Guo, S. and Hao, N. (2012). Variance estimation using refitted cross-va
 Liu, X., Zheng, S. and Feng, X. (2020). Estimation of error variance via ridge regression. Biometrika. [DOI: 10.1093/biomet/asz074](DOI:10.1093/biomet/asz074)
 
 # Development
-This Python package is developed by Xu Liu (liu.xu@sufe.edu.cn) and Xiao Zhang.
+This Python package is developed by Xu Liu (liu.xu@sufe.edu.cn).

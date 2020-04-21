@@ -5,5 +5,5 @@
 # @Site    : 'https://github.com/xliusufe/RidgeVarpy/'
 # @File    : __init__.py.p
 
-from .ridgevar import ridgevar
+from .ridgevar import *
 __all__ = 'VAR_RR, VAR_MM, VAR_MLE'
